@@ -1,14 +1,28 @@
 <head>
-  <title>1stMeteorApp</title>
+	<title>Hi, Meteor</title>
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+	<hr>
+		{{> message1}}
+	<hr>
+		{{> message2}}
+	<hr>
+		{{> message3}}
 
-  {{> hello}}
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="message1">
+	<h2>Hi! Meteor!!!!!</h2>
+</template>
+
+
+<template name="message2">
+	<h2>Another thing, Zac is awesome!</h2>
+</template>
+
+
+<template name= "message3">
+	<h2>And he is good at coding</h2>
+	<p>You know that?</p>
 </template>
